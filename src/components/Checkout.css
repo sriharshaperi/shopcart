@@ -1,0 +1,44 @@
+.subtotal__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 12% auto 10%;
+  width: 30%;
+  height: 60%;
+  right: 0;
+  align-items: center;
+  border-radius: 20px;
+  position: fixed;
+  margin-right: 0.5%;
+  background-color: floralwhite;
+}
+.subtotal__quantities {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.subtotal__value {
+  font-weight: 500;
+}
+
+.subtotal__title {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.checkout {
+  display: block;
+  margin: auto;
+  height: 50px;
+  width: 100%;
+  font-size: x-large;
+  background: linear-gradient(180deg, #f0c14b, #ad841d);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.checkout:hover {
+  background: linear-gradient(180deg, #ad841d, #f0c14b);
+}

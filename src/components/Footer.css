@@ -1,0 +1,13 @@
+.component__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+  border-top: 1px solid grey;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  backdrop-filter: blur(15px);
+}

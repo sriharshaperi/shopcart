@@ -1,0 +1,18 @@
+.component__add__to__cart,
+.button__add__to__cart {
+  height: 50px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: linear-gradient(180deg, #f0c14b, #ad841d);
+  color: white;
+  font-size: large;
+  transition: all 0.2s ease-in-out;
+}
+
+.button__add__to__cart:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #ad841d, #f0c14b);
+}

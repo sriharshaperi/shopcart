@@ -1,0 +1,50 @@
+.component__login {
+  background-color: #131921;
+  height: 100%;
+}
+
+.error__message {
+  color: white;
+  text-align: center;
+}
+
+.login__app__icon {
+  margin-bottom: 10%;
+}
+
+.form__login {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 30%;
+  padding: 10%;
+  padding-bottom: 30%;
+}
+
+.input__username {
+  height: 70px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 10%;
+}
+
+.button__login {
+  display: block;
+  margin: auto;
+  width: 40%;
+  height: 60px;
+  margin-top: 5%;
+  font-size: x-large;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(180deg, #f0c14b, #ad841d);
+}
+
+.button__login:hover {
+  background: linear-gradient(180deg, #ad841d, #f0c14b);
+}

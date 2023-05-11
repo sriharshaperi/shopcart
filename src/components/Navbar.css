@@ -1,0 +1,131 @@
+.component__navbar {
+  display: flex;
+  justify-content: space-evenly;
+  height: 80px;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  top: 0;
+  position: sticky;
+  width: 100%;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+  background-color: #131921;
+}
+
+.nav__logo {
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.navbar__title {
+  cursor: pointer;
+}
+
+.navbar__left {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar__left {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.navbar__links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: maroon;
+  transition: 0.3s;
+}
+
+.navbar__cart {
+  margin-left: 20px;
+  padding-right: 2%;
+  cursor: pointer;
+}
+
+.gg-shopping-cart {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  transform: scale(var(--ggs, 1));
+  width: 20px;
+  height: 21px;
+  background: linear-gradient(to left, currentColor 12px, transparent 0)
+      no-repeat -1px 6px/18px 2px,
+    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat 6px
+      14px/11px 2px,
+    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat 0 2px/4px
+      2px,
+    radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat 12px
+      17px/4px 4px,
+    radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat 6px
+      17px/4px 4px;
+  color: white;
+  font-weight: bold;
+}
+
+.gg-shopping-cart::after,
+.gg-shopping-cart::before {
+  content: "";
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  width: 2px;
+  height: 14px;
+  background: currentColor;
+  top: 2px;
+  left: 4px;
+  transform: skew(12deg);
+}
+
+.gg-shopping-cart::after {
+  height: 10px;
+  top: 6px;
+  left: 16px;
+  transform: skew(-12deg);
+}
+
+.navbar__searchbar {
+  width: 150%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: large;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.button__logout {
+  height: 40px;
+  font-size: large;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 0% 20px 0%;
+  cursor: pointer;
+  background: linear-gradient(180deg, #f0c14b, #ad841d);
+}
+
+.button__logout:hover {
+  background: linear-gradient(180deg, #ad841d, #f0c14b);
+}
+
+.logout__button__section {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
